@@ -26,3 +26,21 @@ services:
     command: "agent -join consul1 -disable-host-node-id"
     depends_on:
       - consul1
+  consul5:
+    image: consul:latest
+    hostname: "consul5"
+    command: "agent -join consul1 -disable-host-node-id"
+    depends_on:
+      - consul1
+  consul6:
+    image: consul:latest
+    hostname: "consul6"
+    command: "agent -join consul1 -disable-host-node-id"
+    depends_on:
+      - consul1
+  consul7:
+    image: consul:latest
+    hostname: "consul7"
+    command: "agent -join consul1 -disable-host-node-id"
+    depends_on:
+      - consul1
