@@ -29,7 +29,7 @@ services:
   consul5:
     image: consul:latest
     hostname: "consul5"
-    command: "agent -join consul1 -disable-host-node-id"
+    command: "agent -server -join consul1 -disable-host-node-id"
     depends_on:
       - consul1
   consul6:
