@@ -9,10 +9,16 @@ Sets up a 7 node consul cluster with 3 servers. The only container with exposed 
 docker
 docker-compose
 
+Or
+
+consul in your $PATH
+
 ## Instructions
 
 To run, do the following from the folder containing the docker-compose.yml
 `docker-compose up -d`
+
+To run it via shell script:
 
 ## Issues
 

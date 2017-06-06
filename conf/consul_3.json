@@ -1,0 +1,13 @@
+{
+	"datacenter": "test",
+	"data_dir": "/opt/consul/3",
+	"log_level": "INFO",
+	"node_name": "node_3",
+	"ports": {
+		"dns": 38600,
+		"http": 38500,
+		"serf_lan": 38301,
+		"serf_wan": 38302,
+		"server": 38300
+	}
+}

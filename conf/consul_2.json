@@ -1,15 +1,13 @@
 {
 	"datacenter": "test",
-	"data_dir": "/opt/consul",
+	"data_dir": "/opt/consul/2",
 	"log_level": "INFO",
-	"node_name": "consul2",
-	"server": true,
-	"client_addr": "0.0.0.0",
+	"node_name": "node_2",
 	"ports": {
-		"dns": 8600,
-		"http": 8500,
-		"serf_lan": 8301,
-		"serf_wan": 8302,
-		"server": 8300
+		"dns": 28600,
+		"http": 28500,
+		"serf_lan": 28301,
+		"serf_wan": 28302,
+		"server": 28300
 	}
 }
